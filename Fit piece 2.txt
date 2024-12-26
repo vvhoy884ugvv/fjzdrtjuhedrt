@@ -86,7 +86,8 @@ local swords = {
    {Name = "Rengoku", Command = "Rengoku"},
    {Name = "Aizen V1", Command = "Aizen"},
    {Name = "Aizen V2", Command = "AizenV2"},
-   {Name = "Sung", Command = "Sung"}
+   {Name = "Sung", Command = "Sung"},
+   {Name = "Kokushibo", Command = "Kokushibo"}
 }
 
 for _, sword in pairs(swords) do
