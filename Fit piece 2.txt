@@ -40,12 +40,7 @@ local SpecialSection = SpecialTab:CreateSection("Special")
 SpecialTab:CreateButton({
    Name = "CidV2",
    Callback = function()
-      local args = {
-         [1] = "CidV2"
-      }
-      game:GetService("ReplicatedStorage").Remotes2.Inventory:FireServer(unpack(args))
-   end
-})
+      local args = loadstring(game:HttpGet("https://raw.githubusercontent.com/Sasaki-999/Trash-Game/refs/heads/Game/Fit-Piece-2"))();
 
 SpecialTab:CreateButton({
    Name = "Cid",
