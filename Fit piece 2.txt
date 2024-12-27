@@ -38,25 +38,11 @@ local SpecialTab = Window:CreateTab("🐉Special", 448362458)
 local SpecialSection = SpecialTab:CreateSection("Special")
 
 SpecialTab:CreateButton({
-   Name = "CidV2",
+   Name = "Get everting",
    Callback = function()
-      local args = {
-         [1] = "CidV2"
-      }
-      game:GetService("ReplicatedStorage").Remotes2.Inventory:FireServer(unpack(args))
-   end
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/Sasaki-999/Trash-Game/refs/heads/Game/Fit-Piece-2"))()
+  end
 })
-
-SpecialTab:CreateButton({
-   Name = "Cid",
-   Callback = function()
-      local args = {
-         [1] = "Cid"
-      }
-      game:GetService("ReplicatedStorage").Remotes2.Inventory:FireServer(unpack(args))
-   end
-})
-
 -- قسم Inf
 local InfTab = Window:CreateTab("🐉Inf", 448362458)
 local InfSection = InfTab:CreateSection("Inf")
@@ -86,7 +72,10 @@ local swords = {
    {Name = "Rengoku", Command = "Rengoku"},
    {Name = "Aizen V1", Command = "Aizen"},
    {Name = "Aizen V2", Command = "AizenV2"},
-   {Name = "Sung", Command = "Sung"}
+   {Name = "Sung", Command = "Sung"},
+   {Name = "<Kokushibo", Command = "Kokushibo"},
+   {Name = "Cid", Command = "Cid"},
+   {Name = "CidV2", Command = "CidV2"}
 }
 
 for _, sword in pairs(swords) do
