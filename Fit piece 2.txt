@@ -73,7 +73,7 @@ local swords = {
    {Name = "Aizen V1", Command = "Aizen"},
    {Name = "Aizen V2", Command = "AizenV2"},
    {Name = "Sung", Command = "Sung"},
-   {Name = "<Kokushibo", Command = "Kokushibo"},
+   {Name = "Kokushibo", Command = "Kokushibo"},
    {Name = "Cid", Command = "Cid"},
    {Name = "CidV2", Command = "CidV2"}
 }
